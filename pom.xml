@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>logbook-kai</groupId>
     <artifactId>attendance</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
@@ -21,8 +21,9 @@
                     <archive>
                         <manifestEntries>
                             <Bundle-License>The MIT License (MIT)</Bundle-License>
-                            <Implementation-Title>航海日誌</Implementation-Title>
+                            <Implementation-Title>勤務記録プラグイン</Implementation-Title>
                             <Implementation-Vendor>sanaehirotaka</Implementation-Vendor>
+                            <Implementation-Version>0.0.1</Implementation-Version>
                         </manifestEntries>
                     </archive>
                     <finalName>${project.artifactId}</finalName>
